@@ -1,4 +1,16 @@
+<p align="center">
+  <img src="assets/medframe_logo.png" width="420" alt="MedFrame logo">
+</p>
+
 # MedFrame-R1: A Framework for Reliable and Reproducible Medical Reinforcement Learning
+
+<p align="center">
+  <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red.svg?logo=arXiv" alt="arXiv"></a>&nbsp;
+  <a href="https://cvpr.thecvf.com/"><img src="https://img.shields.io/badge/CVPR-2027-blue.svg" alt="CVPR 2027"></a>&nbsp;
+  <a href="https://huggingface.co/Shayannasiri"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Checkpoints-Hugging%20Face-yellow.svg" alt="Checkpoints"></a>&nbsp;
+  <a href="DEMO_URL"><img src="https://img.shields.io/badge/Demo-Live-green.svg" alt="Demo"></a>&nbsp;
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg" alt="License"></a>
+</p>
 
 ## Overview
 
@@ -17,6 +29,12 @@ MedFrame-R1 is an open-source framework for reinforcement learning (RL) of medic
 - **Embedding gate and length reward.** The judge reward only counts when the answer is also close to the reference in a medical embedding space, and a strict format check rejects malformed rollouts. The length reward rescales the advantages so that short correct answers are preferred and long incorrect answers are penalized.
 - **Supervised cold start.** Before RL, the model is fine-tuned on chain-of-thought targets with an answer-weighted cross entropy and the Adaptive Early-Stop Loss (AESL).
 - **Evaluation protocol.** Answers that can be decided in code are scored by fixed rules, and all remaining answers are scored by three judges from different model families with a majority vote.
+
+---
+
+## Checkpoints
+
+The trained MedFrame-R1 checkpoints are released on Hugging Face: [huggingface.co/Shayannasiri](https://huggingface.co/Shayannasiri).
 
 ---
 
