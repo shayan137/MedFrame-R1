@@ -87,14 +87,6 @@ See [`eval/README.md`](eval/README.md) for the protocol, task selection and outp
 
 ---
 
-## License
-
-The training code is based on EasyR1 and veRL and is released under the Apache 2.0 License, see [`training/LICENSE`](training/LICENSE). This project is released for **research purposes only**. It is not intended for clinical or commercial use.
-
-Users are urged to employ MedFrame-R1 responsibly, especially when applying its outputs in real-world medical scenarios. It is imperative to verify the model's advice with qualified healthcare professionals and not rely on it for medical diagnoses or treatment decisions.
-
----
-
 ## Acknowledgements
 
 We are thankful to [MediX-R1](https://github.com/mbzuai-oryx/MediX-R1) and [EasyR1](https://github.com/hiyouga/EasyR1) (a fork of [veRL](https://github.com/volcengine/verl)) for their open-source RL training framework and data, and to the authors of "Getting Your LLMs Ready for Reinforcement Learning with Lightweight SFT" for the AESL code.
