@@ -85,7 +85,6 @@ bash eval.sh ../configs/qwen3.5_4b.yaml   # Run all phases: generate, evaluate, 
 
 See [`eval/README.md`](eval/README.md) for the protocol, task selection and output files.
 
----
 
 ## Acknowledgements
 
