@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red.svg?logo=arXiv" alt="arXiv"></a>&nbsp;
   <a href="https://huggingface.co/collections/Shayannasiri/medframe-r1"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Checkpoints-Hugging%20Face-yellow.svg" alt="Checkpoints"></a>&nbsp;
-  <a href="DEMO_URL"><img src="https://img.shields.io/badge/Demo-Live-green.svg" alt="Demo"></a>&nbsp;
+  <a href="https://huggingface.co/spaces/Shayannasiri/MedFrame-R1-Medical-AI-Demo"><img src="https://img.shields.io/badge/Demo-Live-green.svg" alt="Demo"></a>&nbsp;
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg" alt="License"></a>
 </p>
 
